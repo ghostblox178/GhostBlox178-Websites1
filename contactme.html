@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">  <title>Contact Me</title>
+<title>Contact Me</title>
+<link rel="icon" href="image/hanyilogo.jpg" type="image/x-icon">
+</head>
+
+
+ <main id="p5">
+        <div class="contact-section">
+    <h2 style="text-align: center;">Contact Me</h2>
+    
+    <!-- HIER MUSST DU DEINE ECHTE ID EINSETZEN -->
+    <form action="https://formspree.io/f/xgolknbk" method="POST" class="contact-form">
+        
+        <!-- WICHTIG: name Attribute müssen richtig sein! -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="tel">Telefon:</label>
+        <input type="tel" id="tel" name="telefon" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit" class="submit-btn">Send</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2026 GhostBlox178. All rights reserved.</p>
+</footer>
+</html>
+
+
+

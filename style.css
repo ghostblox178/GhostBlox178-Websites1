@@ -1,0 +1,45 @@
+body{
+font-family: Arial, sans-serif;
+background-image: url("image/background.jpg");
+background-size: cover;
+}
+
+.business-card{
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;  
+  margin-top:100px;
+font-size: 16px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.profile-image{
+  max-width: 100%;
+}
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portfolio-link {
+  color: rgb(55, 0, 255);
+}
+
+.portfolio-link:hover {
+  color: rgb(128, 246, 240);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: blanchedalmond;
+    font-size: 0.9em;
+}
